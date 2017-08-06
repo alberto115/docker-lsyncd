@@ -4,7 +4,7 @@ MAINTAINER Alberto Contreras <abecontreras@me.com>
 
 # Install packages
 RUN apt-get update \
-    && apt-get install -y vim lsyncd \
+    && apt-get install -y lsyncd \
     && rm -rf /var/lib/apt/lists/*
 
 # Set sync folders
